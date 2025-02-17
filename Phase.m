@@ -3,11 +3,6 @@ load all_data.mat
 load EEG_channels.mat
 load datGraspCateg_sub10.mat
 
-addpath C:\Users\helen\Documentos\UT\2A\3.Code\FieldTrip
-ft_defaults
-
-addpath C:\Users\helen\Documentos\UT\2A\3.Code\CircStat
-
 data = all_data.Execution; % Stage: Fixation, Observation or Execution
 patients = fieldnames(data);
 
