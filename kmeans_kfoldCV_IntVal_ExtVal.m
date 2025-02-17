@@ -1,19 +1,4 @@
-% In clustering, k-fold cross-validation can be used to evaluate the internal validation 
-% of the model.
-% Internal validation: Internal metrics assess the quality of clusters based on 
-% intrinsic properties of the data, without relying on external labels or ground truth information.
-% Instead, you use metrics that evaluate the cohesion and separation of the clusters 
-% based on the intrinsic properties of the data.
-
-% For evaluating external validity, you would typically reserve a separate dataset (often called a validation or test set) 
-% that was not used during the training or cross-validation process. 
-% After training your model on the training set and tuning hyperparameters using cross-validation, 
-% you assess its performance on the unseen test set to get an indication of how well it generalizes to new data.
-% External validation: external metrics evaluate the clustering results by 
-% comparing them to external ground truth or known labels.
-
 %% Step 1. Internal Validation
-addpath C:\Users\helen\Documentos\UT\2A\3.Code\Scripts\data\Avg_features
 
 ch_names = ["FCz", "C1", "Cz", "C2"];
 int_val = zeros(8,4); % Matrix 8x4. First 4 rows = T1 (4 channels), Last 4 rows = T2 (4 channels).
