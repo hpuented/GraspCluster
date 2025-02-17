@@ -1,4 +1,3 @@
-addpath C:\Users\helen\Documentos\UT\2A\3.Code\Scripts\data
 load all_data.mat
 load EEG_channels.mat
 load datGraspCateg_sub10.mat
