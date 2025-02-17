@@ -1,13 +1,9 @@
-addpath C:\Users\helen\Documentos\UT\2A\3.Code\Scripts\data
 load all_data.mat
 load EEG_channels.mat
 load datGraspCateg_sub10.mat
 
 data = all_data.Execution;
 patients = fieldnames(data);
-
-addpath C:\Users\helen\Documentos\UT\2A\3.Code\FieldTrip
-ft_defaults
 
 %% Step 1. Create 1 grand average for each grasp condition 
 avg_grasp = cell(33,1);
