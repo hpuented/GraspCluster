@@ -1,13 +1,6 @@
-addpath C:\Users\helen\Documentos\UT\2A\3.Code\Scripts\data
 load all_data.mat
 load EEG_channels.mat
 load datGraspCateg_sub10.mat
-
-addpath C:\Users\helen\Documentos\UT\2A\3.Code\FieldTrip
-ft_defaults
-
-addpath C:\Users\helen\Documentos\UT\2A\3.Code\Manopt_7.1\manopt
-% Run Importmanopt
 
 %% Observation: MRCP signal (grand average) and logarithmic mapping of the covariance matrices for each grasp
 data_obs = all_data.Observation;
